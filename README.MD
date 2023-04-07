@@ -1,5 +1,7 @@
 <h1 align="center">VoirAnime Lecteurs</h1>
 
+![VoirAnime Logo](https://github.com/RenardNocturne/VoirAnime-Lecteurs/blob/main/Assets/Result-Image-GitHub.png?raw=true)
+
 <hr>
 
 ## 📋 Contenu
