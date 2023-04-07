@@ -1,0 +1,20 @@
+{
+    "name": "VoirAnime Settings",
+    "description": "Paramétrez le site VoirAnime à votre guise ! Choisissez un lecteur sans pop-up ou autres !",
+    "version": "0.9",
+    "manifest_version": 3,
+
+    "icons": {
+        "128": "Assets/Icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "tabs"],
+    "action": {
+        "default_popup": "Interface/popup.html",
+        "default_icon": {
+            "128": "Assets/Icon.png"
+        }
+    }
+}
