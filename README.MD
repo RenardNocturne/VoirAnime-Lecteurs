@@ -1,6 +1,6 @@
 <h1 align="center">VoirAnime Lecteurs</h1>
 
-![VoirAnime Logo](https://voiranime.com/wp-content/uploads/2019/12/vato.png?raw=true)
+![VoirAnime Logo](https://github.com/RenardNocturne/VoirAnime-Lecteurs/blob/main/Assets/Logo%20VA.png?raw=true)
 
 <hr>
 
