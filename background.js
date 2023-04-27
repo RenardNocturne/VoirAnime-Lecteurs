@@ -10,7 +10,7 @@ const changeLecteur = (tab) => {
 		tab = tabs[0]
 		chrome.storage.sync.get("lecteur", (data) => {
 			//Si il y a 6 slashs on rentre dans le dossier d'un épisode => on met le bon lecteur
-			if (tab.url.includes("https://v2.voiranime.com") && tab.url.split("/").length - 1 === 6 && !tab.url.includes(data.lecteur.endpoint)) chrome.tabs.update(
+			if (tab.url.includes("https://v3.voiranime.com") && tab.url.split("/").length - 1 === 6 && !tab.url.includes(data.lecteur.endpoint)) chrome.tabs.update(
 				tab.id, 
 				{ url: `${tab.url.split("?host=")[0]}${data.lecteur.endpoint}` }, 
 				() => {
